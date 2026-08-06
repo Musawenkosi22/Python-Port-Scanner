@@ -1,0 +1,10 @@
+Network Scan Report
+===================
+Target:        scanme.nmap.org (45.33.32.156)
+Started:       2026-08-06 21:34:10
+Finished:      2026-08-06 21:34:11
+Ports scanned: 1-100
+Open ports found: 2
+
+  Port 22     OPEN   (SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.13)
+  Port 80     OPEN   (HTTP)
