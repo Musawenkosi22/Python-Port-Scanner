@@ -1,7 +1,7 @@
 # Simple Network Scanner
 
 A lightweight, multithreaded TCP port scanner built in Python for learning
-network security fundamentals. Built as part of hands-on cybersecurity
+network security fundamentals. Built as part of hands on cybersecurity
 practice using Kali Linux.
 
 ## Features
@@ -9,8 +9,8 @@ practice using Kali Linux.
 - Scans a target host across a custom port range (e.g. `1-1024`, `22,80,443`)
 - Multithreaded for fast scans across large port ranges
 - Basic banner grabbing to identify running services
-- Optional plain-text report output
-- Simple, dependency-free — uses only Python's standard library
+- Optional plain text report output
+- Simple, dependency free  uses only Python's standard library
 
 ## Requirements
 
@@ -46,7 +46,7 @@ python3 scanner.py -t 192.168.1.10 -p 1-65535 --threads 200 --timeout 0.3
 |---------------|---------------------------------------------------|---------|
 | `-t, --target`| Target IP address or hostname (required)          | —       |
 | `-p, --ports` | Port(s) to scan, e.g. `1-1024` or `22,80,443`      | `1-1024`|
-| `-o, --output`| Path to save a plain-text report                  | none    |
+| `-o, --output`| Path to save a plain text report                  | none    |
 | `--threads`   | Number of worker threads                           | `100`   |
 | `--timeout`   | Socket timeout in seconds                           | `1.5`   |
 
