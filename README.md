@@ -62,7 +62,7 @@ This is a simplified version of what tools like `nmap` do under the hood —
 built from scratch to understand sockets, threading, and TCP scanning at
 a fundamental level.
 
-## ⚠️ Legal & Ethical Use
+Legal & Ethical Use
 
 This tool is for educational purposes and authorized security testing
 **only**. Only scan systems you own or have explicit written permission
